@@ -11,21 +11,35 @@ To connect to the sqlite and run queries you can use [visual studio code](https:
 After setting up database and practising from W3School_SQL, start and try to complete the exercises listed below using the data provided in this repository.
 All of the solutions are available in the repository. <!-- and [this video](https://youtu.be/30W5wjgJR08) goes over all of the solutions. -->
 
-### 2. Database Setup
-Create Database with schema inside [this file]().
-the code inside the [schema.sql](schema.sql) file, paste it into MySQL Workbench, and run it. (This file contains the code necessary to create and add the tables from the tutorial video)
-
 ## Exercises
-### 1. Create a Songs Table
+### 1. Database and Tables Creation
 [Solution](solutions/1.sql)
 
-This table should be called `songs` and have four properties with these exact names.
+#### Create Database
+1.  Create Database with name as **record_company**.
+<!-- the code inside the [schema.sql](schema.sql) file, paste it into MySQL Workbench, and run it. 
+ (This file contains the code necessary to create and add the tables from the tutorial video) -->
+
+
+#### Create a following Table in above database
+
+This table1 should be called `bands` and have 2 properties with these exact names.
+1. `id`: An integer that is the primary key, and auto increments.
+2. `name`: A string that cannot be null.
+
+This table2 should be called `albums` and have 5 properties with these exact names.
+1. `id`: An integer that is the primary key, and auto increments.
+2. `name`: A string that cannot be null.
+3. `release_year`: An integer.
+4. `band_id`: An integer that is a foreign key referencing the bands table that cannot be null.
+
+This table3 should be called `songs` and have 4 properties with these exact names.
 1. `id`: An integer that is the primary key, and auto increments.
 2. `name`: A string that cannot be null.
 3. `length`: A float that represents the length of the song in minutes that cannot be null.
 4. `album_id`: An integer that is a foreign key referencing the albums table that cannot be null.
 
-After successfully creating the table copy the code from [data.sql](data.sql) into MySQL Workbench, and run it to populate all of the data for the rest of the exercises. If you do not encounter any errors, then your answer is most likely correct.
+After successfully creating the table copy the code from [data.sql](data.sql) into VS Code, and run it to populate all of the data for the rest of the exercises. If you do not encounter any errors, then your answer is most likely correct.
 
 ### 2. Select only the Names of all the Bands
 [Solution](solutions/2.sql)
