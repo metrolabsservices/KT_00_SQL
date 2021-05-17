@@ -44,7 +44,7 @@ After successfully creating the table copy the code from [data.sql](data.sql) in
 ### 2. Select only the Names of all the Bands
 [Solution](solutions/2.sql)
 
-Change the name of the column the data returns to `Band Name`
+Select all bands with a column name as `Band Name`, (This is called Alias, Actual column name doesnt change). 
 
 | Band Name         | 
 |-------------------| 
