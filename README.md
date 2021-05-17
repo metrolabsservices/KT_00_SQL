@@ -4,9 +4,10 @@ make sure you learn them from [W3School_SQL](https://www.w3schools.com/sql/)  wh
 
 ## Setup
 ### 1. Database Software & System Tools Installtion 
-During learning make sure you practice on any real database. 
-If you have no idea start by downloading the small sqlite database (for reference on how to install sqlite look into [this video](https://www.youtube.com/watch?v=XA3w8tQnYCA)).
-To connect to the sqlite and run queries you can use [visual studio code](https://code.visualstudio.com/download) and installing [sqlite extension](https://www.youtube.com/watch?v=WpLBpSiGW0k) 
+During learning make sure you practice on any real database.  
+- If you have no idea start by downloading the small sqlite database (for reference on how to install sqlite look into [this video](https://www.youtube.com/watch?v=XA3w8tQnYCA)).
+- To connect to the sqlite and run queries you can use [visual studio code](https://code.visualstudio.com/download) 
+- and installing [sqlite extension](https://www.youtube.com/watch?v=WpLBpSiGW0k) 
 
 After setting up database and practising from W3School_SQL, start and try to complete the exercises listed below using the data provided in this repository.
 All of the solutions are available in the repository. <!-- and [this video](https://youtu.be/30W5wjgJR08) goes over all of the solutions. -->
